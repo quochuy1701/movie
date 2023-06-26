@@ -1,8 +1,7 @@
 {
     "version": 2,
     "env":{
-        "MY_KEY":"root",
-        "SECRET":"1234"
+       "DATABASE_URL":"mysql://root:1234@localhost:3307/db_movie?schema=public"
 
     },
     "builds": [
